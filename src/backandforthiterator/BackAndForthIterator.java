@@ -5,10 +5,10 @@ import java.util.NoSuchElementException;
 
 /**
  *
- * A positional iterator for lists that allows the programmer to traverse the
+ * A positional iterator for lists that allows the programmer to traverse a
  * list in either direction. With this kind of iterator, changing the iteration
  * direction does not duplicate the last element returned (unlike
- * <i>ListIterator</i>). This is ideal for iterating collections that requires
+ * <i>ListIterator</i>). This is ideal for iterating collections that require
  * user interaction through a GUI, like a menu or an interface with next/prev
  * buttons.
  *
